@@ -1,0 +1,80 @@
+.product-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.imagess {
+    width: 200px; /* Adjust image size as needed */
+    height: 200px; /* Adjust image size as needed */
+    object-fit: cover; /* Ensure the image covers the container */
+    border: 1px solid #ccc; /* Optional: Add border for image */
+    border-radius: 5px; /* Optional: Rounded corners for image */
+    margin-right: 20px; /* Optional: Space between image and product info */
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.produtcinfo {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.productdescr {
+    margin: 0;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.productprice {
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Align buttons at the ends */
+    margin-top: 10px; /* Space between product info and buttons */
+}
+
+.h1{
+    padding: 10px 20px;
+    background-color: cornflowerblue; /* Default button background color */
+    color: white; /* Default button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.h2{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(5, 227, 142); /* Default button background color */
+    color: rgb(95, 17, 229); /* Default button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.h1:hover {
+    background-color: #1e90ff; /* Darker shade of blue on hover */
+}
+
+.h2 {
+    background-color: #ddd; /* Lighter background color */
+    color: #333; /* Darker text color */
+}
+
+.h2:hover {
+    background-color: #ccc; /* Darker shade on hover */
+}
